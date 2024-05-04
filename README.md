@@ -1,1 +1,2 @@
-# MyProjects
+This is my repository of my projects.
+New projects coming soon...
