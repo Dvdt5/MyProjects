@@ -1,0 +1,61 @@
+* {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+body {
+    background-color: blanchedalmond;
+    margin: 5%;
+}
+
+hr {
+    color: black;
+    height: 5px;
+    width: 90%;
+    background-color: black;
+    border: 0;
+    border-radius: 5px;
+}
+
+#showList {
+    background-color: burlywood;
+    width: 40vw;
+    padding: 20px;
+    margin-bottom: 100px;
+    border: 4px solid black;
+    position: absolute;
+    right: 80px;
+    word-wrap: break-word;
+}
+
+
+#toDoForm {
+    position: absolute;
+    background-color: burlywood;
+    width: 40vw;
+    height: 50vh;
+    text-align: center;
+    border: 4px solid black;
+}
+
+.inputBox {
+    margin: 30px 10px;
+}
+
+.toDoRow {
+    margin: 0;
+    display: block;
+    
+}
+
+.button {
+    background-color: antiquewhite;
+    border: 0;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 20px;
+    font-size: large;
+}
+.button:hover {
+    background-color: bisque;
+}
