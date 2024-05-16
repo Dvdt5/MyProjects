@@ -3,34 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>toDoList</title>
+    <title>Luhn Algorithm</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <main>
-        <div id="addToList">
-            <div id="toDoForm">
-                <div class="inputBox">
-                <label for="toDo">
-                    Please enter a toDo: 
-                </label><br>
-                    <textarea type="text" name="toDo" id="toDo"></textarea>
-                </div>
-                <div class="inputBox">
-                <label for="time">
-                    Please enter the time it should be done: 
-                </label><br>
-                    <input type="time" name="time" id="time">
-                </div>
-                <button type="submit" class="button" id="submit">Submit</button>
-            </div>
+    <div id="content-box">
+        
+        <h2>Please enter the credit card number you want to validate.</h2>
+        <input type="text" name="cc-umber" id="cc-number" placeholder="xxxx-xxxx-xxxx-xxxx">
+        <br>
+        <button type="submit" name="submit-btn" id="submit-btn">Check the number</button>
+        
+        <div >
+            <h3 id="answer">Your answer will be here!</p>
         </div>
-        <div id="showList">
-            
-               
-            
-        </div>
-    </main>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
