@@ -9,12 +9,12 @@
 <body>
     <main>
         <div id="addToList">
-            <form id="toDoForm">
+            <div id="toDoForm">
                 <div class="inputBox">
                 <label for="toDo">
-                    Please enter a toDo: 
+                    Please enter a task: 
                 </label><br>
-                    <input type="text" name="toDo" id="toDo">
+                    <input type="text" name="toDo" id="toDo"></input>
                 </div>
                 <div class="inputBox">
                 <label for="time">
@@ -22,13 +22,16 @@
                 </label><br>
                     <input type="time" name="time" id="time">
                 </div>
-                <button type="submit">Submit</button>
-            </form>
+                <button class="button" id="submit">Submit</button>
+                <div id="talkUserDiv">
+                    <p id="talkUser">Ready to enter a task.</p>
+                </div>
+            </div>
         </div>
         <div id="showList">
-            <ul>
-                <li class="toDoRow">hi</li>
-            </ul>
+            
+               
+            
         </div>
     </main>
     <script src="script.js"></script>
